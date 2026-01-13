@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Stone - Interior Designer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-content">
+            <img src="https://images.pexels.com/photos/8370864/pexels-photo-8370864.jpeg" alt="Adam Stone" class="hero-photo">
+            <h1>Adam Stone</h1>
+            <h2>Interior Designer crafting functional & elegant spaces</h2>
+            <p class="subheadline">Residential • Commercial • Modern Design</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-btn">View Projects</a>
+                <a href="#contact" class="cta-btn">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation (optional, but added for smooth scrolling links if needed) -->
+    <nav id="nav">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>As a dedicated interior designer, I focus on creating functional spaces that blend modern aesthetics with client-centered solutions. With years of experience in residential and commercial projects, I prioritize innovative design that enhances everyday living while reflecting each client's unique vision and needs.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="gallery" id="gallery"></div> <!-- Dynamically populated by JS -->
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <h2>Our Expert Team</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <img src="https://images.pexels.com/photos/6474446/pexels-photo-6474446.jpeg" alt="Team Member 1">
+                <h3>Designer</h3>
+            </div>
+            <div class="team-card">
+                <img src="https://images.pexels.com/photos/7217987/pexels-photo-7217987.jpeg" alt="Team Member 2">
+                <h3>Architect</h3>
+            </div>
+            <div class="team-card">
+                <img src="https://images.pexels.com/photos/5493676/pexels-photo-5493676.jpeg" alt="Team Member 3">
+                <h3>Site Supervisor</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="service-item">Interior Design</div>
+            <div class="service-item">Space Planning</div>
+            <div class="service-item">3D Visualization</div>
+            <div class="service-item">Renovation Consulting</div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Clients Say</h2>
+        <div class="testimonials-grid" id="testimonials-grid"></div> <!-- Dynamically populated by JS -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-message" class="form-message"></p> <!-- For success/error messages -->
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Adam Stone. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+              </html>
